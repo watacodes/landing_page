@@ -1,0 +1,232 @@
+* {
+    font-family: roboto, sans-serif;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 100vw;
+}
+
+.header,
+.footer,
+.section1 {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: aqua;
+     */
+}
+
+.header-logo {
+    justify-content: flex-start;
+    color: #F9FAF8;
+    font-size: 24px;
+    /* background-color: green; */
+    margin-right: auto;
+    padding: 20px;
+    margin-left: 180px;
+}
+
+.header-right ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 8px;
+    margin-right: 180px;
+    list-style-type: none;
+    /* background-color: green;  */
+}
+
+.header-right a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 400;
+}
+
+.section1 {
+    color: #F9FAF8;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    width: 550px;
+    padding: 24px;
+    margin: 36px;
+}
+.main-title {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 12px;
+}
+
+.image-container img {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 275px;
+    padding: 24px;
+    margin: 36px;
+    flex-shrink: 1;
+}
+
+.signup {
+    background-color: #3882F6;
+    border-radius: 4px;
+    width: 100px;
+    padding: 8px;
+    border: 0;
+    color: #E5E7EB;
+}
+
+.section2-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+}
+
+.icon-container {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+    gap: 24px;
+    padding: 0 40px;
+    padding-bottom: 40px;
+}
+.icon-holder {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.icon {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    margin-bottom: 8px;
+    padding: 20px;
+}
+
+.icon-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 170px;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 120px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
+.figcaption {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* background-color: red; */
+    font-size: 18px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.section4 {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.signup-maintext {
+    /* background-color:red; */
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.signup-subtext {
+    /* background-color: green; */
+    color: #E5E7EB
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-button2 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    border-radius: 4px; 
+    padding: 4px 16px;   
+    
+}
+
+.footer {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#E5E7EB;
+}
